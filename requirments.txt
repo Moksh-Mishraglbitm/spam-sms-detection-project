@@ -1,9 +1,3 @@
-streamlit>=1.36
-pandas>=2.0
-numpy>=1.24
-scikit-learn>=1.3
-xgboost>=2.0
-matplotlib>=3.7
 
 streamlit
 pandas
@@ -15,5 +9,15 @@ scipy
 joblib
 threadpoolctl
 Pillow
-
+packaging
+python-dateutil
+pytz
+tzdata
+six
+contourpy
+cycler
+fonttools
+kiwisolver
+pyparsing
+importlib-metadata
 
