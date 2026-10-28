@@ -1,11 +1,12 @@
 import re
 from pathlib import Path
-
-
 import pandas as pd
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
+import sklearn
+st.write("Scikit-learn version:", sklearn.__version__)
+st.write("Scikit-learn location:", sklearn.__file__)
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 from sklearn.model_selection import train_test_split
