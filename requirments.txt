@@ -20,6 +20,5 @@ fonttools
 kiwisolver
 pyparsing
 importlib-metadata
-sklearn
-sklearn.ensemble
+
 
